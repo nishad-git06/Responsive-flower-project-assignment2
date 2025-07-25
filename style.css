@@ -59,8 +59,12 @@ body {
 }
 /*banner style*/
 .banner {
-  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto;
   align-items: end;
+  max-width: 1140px;
 }
 .title-of-2nd-box {
   font-size: 65px;
@@ -70,4 +74,29 @@ body {
 .second-box-description {
   font-size: 22px;
   margin-top: 0px;
+}
+
+/*responsive banner and nav for phone*/
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 0px;
+  }
+  .banner img {
+    margin-top: 28px;
+  }
+  .hide {
+    display: none;
+  }
+  .nav-conteiner {
+    margin: 67px 16px 0px;
+  }
+  .second-box-items {
+    margin: 28px 16px 65px;
+  }
+
+  .title-of-2nd-box {
+    font-size: 24px;
+    font-weight: 700;
+  }
 }
