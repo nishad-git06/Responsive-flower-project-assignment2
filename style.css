@@ -37,6 +37,9 @@ body {
 .gray {
   color: #8987a1;
 }
+.center-align {
+  text-align: center;
+}
 
 /*nav styles*/
 .nav-link {
@@ -99,4 +102,58 @@ body {
     font-size: 24px;
     font-weight: 700;
   }
+}
+
+/*plant style section*/
+.plant-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 212px;
+}
+.plant-section {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.plant-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.plant-subtitle {
+  font-size: 22px;
+  color: #8987a1;
+}
+.plant-title-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 18px;
+}
+.card-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 30px;
+}
+.flower-card img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.flower-card button {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #e95a08;
+  padding: 19px 80px;
+  border: none;
+}
+.flower-card {
+  gap: 20px;
+  margin-bottom: 30px;
 }
