@@ -223,6 +223,7 @@ body {
     gap: 0px;
     max-width: 80%;
     max-height: 660px;
+    margin-bottom: 500px;
   }
   .badget-img {
     display: none;
@@ -332,4 +333,49 @@ body {
   font-size: 30px;
   font-weight: 600;
   color: white;
+}
+
+/*deal response*/
+@media screen and (max-width: 576px) {
+  .deal-secsion-title {
+    font-size: 30px;
+  }
+  .deal-secsion-sub-title {
+    font-size: 16px;
+  }
+  .deal-section-description {
+    margin-bottom: 60px;
+  }
+  .deal-secsion-imgs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bloom {
+    grid-column: 1;
+    grid-row: 1;
+    height: 200px;
+  }
+  .ana {
+    grid-column: 1;
+    grid-row: 2;
+    height: 200px;
+  }
+  .zabo {
+    grid-column: 1;
+    grid-row: 3;
+    height: 200px;
+  }
+  .deal-secsion-imgs {
+    height: 600px;
+    width: 100%;
+  }
+  .content-title-small,
+  .content-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .ankor1,
+  .ankor2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
