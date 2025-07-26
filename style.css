@@ -379,3 +379,68 @@ body {
     font-weight: 600;
   }
 }
+
+/* join bunch*/
+
+.join-bunch-conteiner {
+  width: 100%;
+  height: 600px;
+  background-image: url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.join-bunch-content {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  display: grid;
+  padding: 199px 0px;
+  justify-content: center;
+  text-align: center;
+}
+input {
+  height: 50px;
+  width: 644px;
+  border: none;
+  color: #8987a1;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.last-butten {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #e95a08;
+  padding: 19px 80px;
+  border: none;
+}
+
+/*join responsive*/
+@media screen and (max-width: 576px) {
+  .join-bunch-conteiner {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .join-bunch-content {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    padding: 60px 0px;
+  }
+  input {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  .last-butten {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 12px;
+  }
+}
