@@ -477,22 +477,23 @@ input {
 }
 
 /*fotter responsive*/
+@media screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
 
-.footer {
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-around;
-
-  padding: 50px 20px;
-}
-.links-conteiner {
-  flex-direction: column;
-  gap: 0px;
-}
-.logo img {
-  margin-left: 0px;
-  margin-right: 24px;
-}
-.footer-left img {
-  margin-bottom: 16px;
+    padding: 50px 20px;
+  }
+  .links-conteiner {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .logo img {
+    margin-left: 0px;
+    margin-right: 24px;
+  }
+  .footer-left img {
+    margin-bottom: 16px;
+  }
 }
